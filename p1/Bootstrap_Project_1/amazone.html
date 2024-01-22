@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone login form"></form></title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body{
+            background-color: rgb(245, 250, 254);
+        }
+        header{
+            display: flex;
+            height: auto;
+            justify-content: center;
+            text-align: center
+        }
+        #logo
+        {
+            font-weight: bold;
+            font-size: 50px;
+        }
+        #logo::first-letter{
+            font-size: 35px;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+
+        }
+        form{
+            border:2px solid rgb(214, 208, 208);
+            background-color: rgb(249, 249, 249,0.3);
+            border-radius: 5px;
+            padding: 40px;
+            height: auto;
+            width: 38rem;
+            font-size: 28px;
+        }  
+        .btn-2{
+            align-items: center;
+        }      
+        .new-am{
+            text-align: center;
+           margin-top:100px;
+        }
+      .ft{
+        display:flex;
+        justify-content: center;
+        font-size: 23px;
+      }
+      .ft span a{
+        padding: 20px;
+        text-decoration: none;
+      }
+      .ft span a:hover
+      {
+        font-weight: 600;
+        font-size: 25px;
+      }
+        
+
+    </style>
+</head>
+<body>
+    <header class="mb-1">
+        <div class="logo">
+            <span id="logo" class="font-weight 900">amazon</span>
+            <!-- <img src="/public/images/amazon_logo.png" alt="image not found"> -->
+            <span id="logo2">.in</span>
+        </div>
+    </header>
+    <section class="mb-3 ">
+
+        <form action="">
+            <h3 class="bi bi-person ">Sing in</h3>
+                <div class="mb-4">
+                    <label  class="form-label"for="email/no">Email or mobile phone number</label>
+                    <div>
+                        <input type="text" name="Emailno" id="" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-4" >
+                    <input type="button" name="btn" value="Continue" class="btn btn-warning w-100  ">
+                </div>
+                <div>
+                    <p>By continuing your agree to Amazone's <a href="#">Condition of Use</a> and <a href="#">Privecy Notice</a></p>
+                </div>
+                <div class="mt-3 mb-2" >
+                    <details>
+                        <summary>Need help?</summary>
+                        <summary><a href="#">logout</a></summary>
+                        <summary><a href="#">Login</a></summary>
+                    </details>
+                </div>
+                <div class="mt-5 new-am">
+                    <span> New to Amazon?            </span>
+                </div>
+                <div class="mt-4  btn-2">
+                    <input class="br btn-primary w-100 " type="button" name="btn" value="Create your Amazon Account">
+                </div>
+            </form>
+          
+
+    </section>
+    <footer class="mb-5">
+       <div class="ft">
+        <span ><a href="#">Conditions of use</a></span>
+        <span><a href="#">Privacy Notice</a></span>
+        <span><a href="#">Help</a></span>
+       </div>
+    </footer>
+</body>
+</html>

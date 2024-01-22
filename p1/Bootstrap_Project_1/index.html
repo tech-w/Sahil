@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Bootstrap login form </title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 600px;       
+
+        }
+        form{
+            border: 1px solid black;
+            padding: 30px;
+            width: 400px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="dis" method="post">
+            <h3 class="bi bi-person">User Login </h3>
+        <div class="mb-2">
+            <label for="" class="form-label">Enter your name </label>
+            <div clas>
+                <input class="form-control"type="text" name="name" class="from-control">
+            </div>
+        </div>
+        <div class="mb-2"> 
+            <label for="pass"class="form-label">Enter Password</label>
+            <div>
+                <input  class="form-control"  type="text" name="name" id="">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="">Enter your address </label>
+            <div>
+                <textarea name="" id="" cols="20 " rows="2"></textarea>
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for=""> Enter your Email ID</label>
+            <div>
+                <input class="form-control"type="email" name="mid">
+            </div>
+        </div>
+        <div class="mb-2">
+            <label for="">Enter your Phone number </label>
+            <div>
+                <input type="number"  class="form-control" name="phno">
+            </div>
+
+        </div>
+        <div>
+            <label for="hobis"> hobis</label>
+            <div>
+                <select name="hobis" class="form-select" >
+                    <option value=""> select..</option>
+                    <option>cricket</option>
+                    <option>gaming</option>
+                    <option>reding</option>
+                    <option>coding</option>
+                </select>
+            </div>
+        </div>
+        <div >
+            <input type="checkbox" name="chk" class="form check-input" > Aagree
+        <div  class="align-items  ">
+            <button class="btn btn-primary w-100 mt-4">submit</button> 
+        </div>         
+    </form>
+</body>
+</html>

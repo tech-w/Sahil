@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            /* background-image: url("492160.jpg") */
+        }
+        form{
+
+            background-image:url("492160.jpg") ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            background-color:rgb(216, 216, 242);
+            height: auto;
+            width: 40%;
+            margin: 80px;
+            padding: 10px;
+            border: 2px solid black ;
+            box-shadow: blue;
+            border-radius: 10px;
+        }
+        .tl{
+    
+            text-align: center;
+            font-size: 20px;
+            
+        }
+        .tl::first-letter{
+            font-size: 35px;
+            color: rgb(34, 109, 174);
+        }
+        .lb{
+            text-align: center;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .cont{
+            text-align: center;
+        
+        }
+        .cont input{
+            width: 50%;
+            height: 30px;
+            border: 2px solid rgb(144, 144, 216);
+            border-radius: 5px;
+        }
+        .btn{
+            text-align: center;
+            margin: 20px;
+            
+        }
+        .btn button{
+            font-size: 23px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 15px;
+            background-color: rgb(170, 170, 235);
+            width: 50%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+       <div class="main">
+            <div class="tl">
+                <h3>Add Book  Information </h3>
+            </div>
+            <div class="lb">
+                <label for="code">Enter Book code </label>
+            </div>
+            <div class="cont">
+                <input type="text" name="code" id="code">
+            </div>
+            <div class="lb">
+                <label for="name">Enter Book name </label>
+            </div>
+            <div class="cont">
+                <input type="text" name="name " id="name ">
+            </div>
+            <div class="lb">
+                <label for="author">Enter Author name </label>
+            </div>
+            <div class="cont">
+                <input type="text" name="author" id="author">
+            </div>
+            <div class="lb">
+                <label for="price">Enter Book Price </label>
+            </div>
+            <div class="cont">
+                <input type="number" name="price" id="price">
+            </div>
+            <div class="lb">
+                <label for="qty">Enter Book Qty</label>
+            </div>
+            <div class="cont">
+                <input type="number" id="qty" name="qty">
+            </div>
+            <div class="btn">
+                <button>Submit</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
